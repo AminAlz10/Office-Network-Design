@@ -49,19 +49,19 @@ IP ranges were calculated based on:
 - **Simulation Mode:** Manual ICMP packets traversed the network as expected
 
 ### Successful Ping From pc3 in Router0 to Pc 15 in Router2
-<img src="images/8.png" width="500" align="center"/>
+<img src="Images/8.png" width="500" align="center"/>
 ### Simulation Mode
-<img src="images/6.png" width="500" align="center"/>
+<img src="Images/6.png" width="500" align="center"/>
 
 ---
 
 ## Static Routing Configuration
 
 ### Router0
-<img src="images/10.png" width="500"/>
+<img src="Images/10.png" width="500"/>
 
 ### Router2
-<img src="images/9.png" width="500"/>
+<img src="Images/9.png" width="500"/>
 
 ---
 
@@ -69,22 +69,22 @@ IP ranges were calculated based on:
 
 Manually calculated and documented on paper:
 
-<img src="images/11.jpg" width="400"/>
+<img src="Images/11.jpg" width="400"/>
 
 ----------------------------------------
-<img src="images/13.jpg" width="400"/>
+<img src="Images/13.jpg" width="400"/>
 
 -----------------------------------------
-<img src="images/14.jpg" width="400"/>
+<img src="Images/14.jpg" width="400"/>
 
 -----------------------------------------
-<img src="images/15.jpg" width="400"/>
+<img src="Images/15.jpg" width="400"/>
 
 ---
 
 ## Full Network Topology
 
-<img src="images/1.png" width="700"/>
+<img src="Images/1.png" width="700"/>
 
 ---
 
