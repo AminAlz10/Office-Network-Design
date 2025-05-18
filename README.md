@@ -12,6 +12,13 @@ This project simulates a small office network designed using Cisco Packet Tracer
 - Validate connectivity through Ping and ICMP analysis
 
 ---
+## IP Design Decisions
+
+- **Private IP Range (192.168.10.0/24)** was chosen as it's ideal for internal office LANs.
+- Subnets were manually calculated to **minimize IP waste** and support **future scalability**.
+- Routers were assigned addresses from **10.0.0.0/30** range (e.g. `10.0.0.1`, `10.0.0.2`) to simulate WAN-like connections between router interfaces — this is a **commonly used point-to-point range** in practice.
+- DHCP was intentionally **not used**, to ensure **static control** over addressing and reinforce manual subnetting concepts (as expected at Network+ level).
+
 
 ## 🧱 Network Overview
 
@@ -77,8 +84,6 @@ Manually calculated and documented on paper:
 -----------------------------------------
 <img src="Images/14.jpg" width="400"/>
 
------------------------------------------
-<img src="Images/15.jpg" width="400"/>
 
 ---
 
