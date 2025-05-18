@@ -54,6 +54,14 @@ IP ranges were calculated based on:
 - **Switches:** 2960-24TT switches were chosen for their simplicity and availability in Packet Tracer – no Layer 3 features were needed.
 - **Topology:** A **star-based topology** was used to clearly separate departments, simplify routing paths, and ease future upgrades.
 
+## Design Rationale
+
+- Manual IP configuration helped me understand and reinforce concepts of subnet size, IP planning, and broadcast boundaries.
+- Avoided DHCP to ensure full visibility and control of IP allocation during learning phase.
+- Chose future-ready subnets (e.g., /28 instead of /30) to avoid renumbering as devices grow.
+- WAN-style point-to-point IPs (10.0.0.0/30) on routers for realism in inter-router links.
+
+
 ## Testing & Validation
 
 - **Real-Time Mode:** All devices successfully pinged each other
