@@ -50,7 +50,6 @@ IP ranges were calculated based on:
 
 ### Successful Ping From pc3 in Router0 to Pc 15 in Router2
 <img src="images/8.png" width="500" align="center"/>
-
 ### Simulation Mode
 <img src="images/6.png" width="500" align="center"/>
 
@@ -71,8 +70,14 @@ IP ranges were calculated based on:
 Manually calculated and documented on paper:
 
 <img src="images/11.jpg" width="400"/>
+
+----------------------------------------
 <img src="images/13.jpg" width="400"/>
+
+-----------------------------------------
 <img src="images/14.jpg" width="400"/>
+
+-----------------------------------------
 <img src="images/15.jpg" width="400"/>
 
 ---
