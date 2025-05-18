@@ -49,6 +49,10 @@ IP ranges were calculated based on:
 - **CLI:** Not used (GUI only)
 
 ---
+## Why did I choose these Routers/Switches/Topology?
+- **Routers:** Cisco 2811 was selected as a standard general-purpose router often used in Packet Tracer for basic routing labs.
+- **Switches:** 2960-24TT switches were chosen for their simplicity and availability in Packet Tracer – no Layer 3 features were needed.
+- **Topology:** A **star-based topology** was used to clearly separate departments, simplify routing paths, and ease future upgrades.
 
 ## Testing & Validation
 
