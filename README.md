@@ -20,12 +20,27 @@ This project simulates a small office network designed using Cisco Packet Tracer
 - DHCP was intentionally **not used**, to ensure **static control** over addressing and reinforce manual subnetting concepts (as expected at Network+ level).
 
 
-## 🧱 Network Overview
+## Network Overview
 
-IP ranges were calculated based on:
+IP ranges were carefully calculated for each department based on:
+- Current number of devices
+- Reserved IPs for **future expansion**
+- Inclusion of 1 IP per subnet for the **default gateway**
+
+Abbreviations:
 - C = Current devices
 - F = Future devices (reserved)
 - G = 1 IP reserved for Default Gateway
+- C = Current Devices
+- F = Future Reserved Devices
+- G = Gateway
+- Dept = Department
+- Mgmt = Management
+- Fin = Finance
+- Guest = Guest Wi-Fi
+- Server = Server Room
+
+This ensures scalability and avoids renumbering when adding new devices.
 
 | Dept   | C | F | G | Total IPs | Subnet Mask        | Subnet ID       | Host IP Range             | Broadcast         |
 |--------|---|---|---|-----------|---------------------|------------------|---------------------------|-------------------|
